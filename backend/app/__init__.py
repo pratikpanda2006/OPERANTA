@@ -1,0 +1,2 @@
+"""MarginGuard backend application package."""
+
