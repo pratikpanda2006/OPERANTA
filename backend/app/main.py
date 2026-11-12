@@ -67,6 +67,7 @@ app = FastAPI(
 # CORS configuration allowing the React + Vite frontend
 origins = [
     "http://localhost:5173",
+    "https://operanta-frontend.onrender.com",
 ]
 
 app.add_middleware(
