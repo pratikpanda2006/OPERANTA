@@ -7,12 +7,12 @@
 .env.*
 *.env
 *.env.*
-!**/.env.example
-!**/.env.*.example
 frontend/.env.development
 frontend/.env.local
 backend/.env
 backend/.env.*
+!**/.env.example
+!**/.env.*.example
 
 # Python virtual environment and bytecode
 __pycache__/
@@ -49,3 +49,12 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Local migration helpers may contain database connection credentials
+/apply_migration_003.py
+/apply_migration_004.py
+
+# Accidental terminal artifacts
+/it
+/play this help.
+/s -ExecutionPolicy RemoteSigned) ; (& ?c?UsersPRATIK PANDADesktopmarginguardbackend.venvScriptsActivate.ps1?)
